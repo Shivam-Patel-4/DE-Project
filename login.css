@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  height: 100vh;
+  background:linear-gradient(45deg,rgba(196, 52, 174, 0.492),rgb(3, 137, 99) );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Login Box */
+.Login {
+  background:transparent;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(174, 170, 170, 0.91);
+  text-align: center;
+}
+
+/* Heading */
+.Login h1 {
+  margin-bottom: 20px;
+ 
+}
+
+/* Input Box */
+.inputbox {
+  margin-bottom: 15px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.inputbox label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px transparent
+  outline: none;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+
+
+/* Forgot Password */
+a {
+  display:flex;
+  margin: 10px 0;
+  text-decoration: none;
+  color:rgb(209, 197, 206);
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Button */
+.Button button {
+  width: 70px;
+  padding: 5px;
+  background-color:transparent;
+  font-size:small;
+  color: rgb(231, 217, 217);
+  border-radius: 10px;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+button:hover{
+    text-decoration: underline;
+    color: black;
+}

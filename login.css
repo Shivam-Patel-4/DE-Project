@@ -52,7 +52,7 @@ body {
   width: 100%;
   padding: 10px;
   border-radius: 8px;
-  border: 1px transparent
+  border: 1px transparent;
   outline: none;
   transition: 0.3s;
   background-color: transparent;
